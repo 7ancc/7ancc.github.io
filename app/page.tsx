@@ -115,8 +115,8 @@ const cvPaths = [
     name: "Research & Academic CV",
     description: "Visiting research and exchange applications",
     document: {
-      id: "cv-research-oct13", title: "Research & Academic CV", kind: "Visiting Research & Exchange Applications", viewOnly: true,
-      excerpts: [1, 2].map(page => ({ image: `/cv/research-${String(page).padStart(2, "0")}.webp`, label: `Research & Academic CV · Page ${page} of 2` })),
+      id: "cv-research-oct14", title: "Research & Academic CV", kind: "Visiting Research & Exchange Applications", viewOnly: true,
+      excerpts: [1, 2].map(page => ({ image: `/cv/research-20261014-${String(page).padStart(2, "0")}.webp`, label: `Research & Academic CV · Page ${page} of 2` })),
     } satisfies ResearchDocument,
   },
   {
